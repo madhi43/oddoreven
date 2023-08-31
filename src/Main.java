@@ -9,8 +9,9 @@ public class Main {
         int num = i.nextInt();
         System.out.println(c.func(num));
     }
+}
 
-    static class calc {
+     class calc {
         String func(int n) {
             if (n % 2 == 0)
                 return ("Even");
@@ -18,4 +19,3 @@ public class Main {
                 return ("Odd");
         }
     }
-}
